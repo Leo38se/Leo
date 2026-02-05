@@ -39,5 +39,5 @@ resource "azurerm_storage_blob" "error" {
 
 output "static_website_url" {
   description = "URL of the static website"
-  value = azurerm_storage_account.static_site.primary_web_endpoint
+  value       = azurerm_storage_account.static_site.primary_web_endpoint
 }
